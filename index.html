@@ -3,45 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEU NOME | Desenvolvedor</title>
+    <title>Júlio Holanda | Desenvolvedor</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>SEU NOME COMPLETO</h1>
-        <p>Desenvolvedor em Formação | Análise e Desenvolvimento de Sistemas</p>
-        <div class="links">
-            <a href="https://github.com/SEUUSUARIO" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/SEUUSUARIO" target="_blank">LinkedIn</a>
-            <a href="mailto:SEUEMAIL@email.com">Email</a>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>SEU NOME COMPLETO</h1>
+            <p class="subtitle">Desenvolvedor em Formação | ADS • Conclusão 2026</p>
+            
+            <div class="hero-buttons">
+                <a href="https://github.com/Julioholaanda" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/SEUUSUARIO" target="_blank">LinkedIn</a>
+                <a href="mailto:julioholandadasilva@email.com">Contato</a>
+            </div>
         </div>
     </header>
 
-    <section>
-        <h2>🎯 Objetivo</h2>
-        <p>
-            Estudante de Análise e Desenvolvimento de Sistemas, com conclusão prevista para 2026.
-            Possuo experiência prática em desenvolvimento web utilizando HTML, CSS e JavaScript,
-            além de conhecimentos em Git e GitHub. Atualmente em aprendizado de Java com foco em back-end.
-            Busco oportunidade como estagiário ou desenvolvedor júnior.
-        </p>
-    </section>
+    <main>
 
-    <section>
-        <h2>🎓 Formação</h2>
-        <p>
-            <strong>Análise e Desenvolvimento de Sistemas</strong><br>
-            NOME DA INSTITUIÇÃO<br>
-            Conclusão prevista: Dezembro/2026
-        </p>
-    </section>
+        <section class="card">
+            <h2>🎯 Sobre Mim</h2>
+            <p>
+                Estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento web.
+                Experiência prática com HTML, CSS e JavaScript e atualmente estudando Java.
+                Busco oportunidade como estagiário ou desenvolvedor júnior.
+            </p>
+        </section>
 
-    <section>
-        <h2>💻 Habilidades Técnicas</h2>
-        <div class="skills">
-            <div>
-                <h3>Front-end</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</
+        <section class="card">
+            <h2>💻 Tecnologias</h2>
+            <div class="skills">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Java (em aprendizado)</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>🚀 Projeto em Destaque</h2>
+            <h3>Site Institucional</h3>
+            <p>
+                Projeto desenvolvido com HTML, CSS e JavaScript.
+                Estrutura semântica, responsividade e manipulação de DOM.
+            </p>
+            <a class="project-link" 
+               href="https://github.com/SEUUSUARIO/NOMEDOPROJETO" 
+               target="_blank">
+               Ver no GitHub
+            </a>
+        </section>
+
+        <section class="card">
+            <h2>🎓 Formação</h2>
+            <p>
+                <strong>Análise e Desenvolvimento de Sistemas</strong><br>
+                Centro Universitário UniProcessus<br>
+                Conclusão: Dezembro/2026
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>📚 Cursos</h2>
+            <ul>
+                <li>Curso de Git e GitHub</li>
+                <li>Curso de Java (em andamento)</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Júlio Holanda</p>
+        <button onclick="toggleTema()">Alternar Tema</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
