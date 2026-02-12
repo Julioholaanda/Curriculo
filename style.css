@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-/* =========================
-   VARIÁVEIS DE TEMA
-========================= */
+/* VARIÁVEIS DE TEMA */
 :root {
     --bg: #0f172a;
     --text: #f1f5f9;
@@ -33,9 +31,6 @@
     --button-text: #ffffff;
 }
 
-/* =========================
-   BODY
-========================= */
 body {
     font-family: 'Segoe UI', sans-serif;
     background: var(--bg);
@@ -44,9 +39,6 @@ body {
     transition: 0.3s;
 }
 
-/* =========================
-   HERO
-========================= */
 .hero {
     height: 70vh;
     display: flex;
@@ -82,18 +74,12 @@ body {
     transform: scale(1.05);
 }
 
-/* =========================
-   MAIN
-========================= */
 main {
     max-width: 900px;
     margin: -50px auto 40px auto;
     padding: 0 20px;
 }
 
-/* =========================
-   CARDS
-========================= */
 .card {
     background: var(--card);
     padding: 25px;
@@ -112,9 +98,6 @@ h2 {
     color: var(--primary);
 }
 
-/* =========================
-   SKILLS
-========================= */
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -129,9 +112,6 @@ h2 {
     transition: 0.3s;
 }
 
-/* =========================
-   LINKS
-========================= */
 .project-link {
     display: inline-block;
     margin-top: 10px;
@@ -140,9 +120,6 @@ h2 {
     text-decoration: none;
 }
 
-/* =========================
-   BOTÃO TEMA
-========================= */
 button {
     margin-top: 10px;
     padding: 8px 15px;
@@ -159,9 +136,6 @@ button:hover {
     opacity: 0.9;
 }
 
-/* =========================
-   FOOTER
-========================= */
 footer {
     text-align: center;
     padding: 20px;
