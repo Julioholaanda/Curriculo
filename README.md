@@ -53,3 +53,5 @@ Desenvolver uma aplicação web simples, estruturada e visualmente agradável pa
 ## 🌐 Como Visualizar
 
 1. Clone o repositório:
+
+git clone https://github.com/Julioholaanda/Curriculo.git
