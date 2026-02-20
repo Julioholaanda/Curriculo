@@ -9,5 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
         .addEventListener("click", function () {
             document.body.classList.toggle("light-mode");
         });
-
+ function toggleMenu() {
+    var menu = document.getElementById("menuContato");
+    
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
 });
