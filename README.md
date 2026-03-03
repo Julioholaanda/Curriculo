@@ -31,12 +31,16 @@ Desenvolver uma aplicação web simples, estruturada e visualmente agradável pa
 
 ## 🗂️ Estrutura do Projeto
 
-📁 Curriculo
+Curriculo/
 ├── index.html
-├── style.css
-├── script.js
-├── foto.jpg
-└── README.md
+├── README.md
+└── assets/
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   └── script.js
+    └── img/
+        └── foto.jpg
 
 
 ---
