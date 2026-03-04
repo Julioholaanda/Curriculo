@@ -12,7 +12,7 @@
     --card: #1e293b;
     --primary: #38bdf8;
     --gradient1: #2563eb;
-    --gradient2: #7c3aed;
+    --gradient2: #1f0303;
     --skill-bg: #334155;
     --button-bg: #38bdf8;
     --button-text: #0f172a;
@@ -61,7 +61,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* BOTÕES DO HERO (CORRIGIDO) */
+/* BOTÕES DO HERO */
 .hero-buttons {
     display: flex;
     flex-wrap: wrap;
